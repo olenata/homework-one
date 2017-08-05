@@ -1,0 +1,41 @@
+<div class="personalInfo">
+    
+    <div class="photoDiv">
+        <img src="{{profilePhoto}}" alt="{{fullName}}" title="{{fullName}}" width="135" height="135">
+    </div>
+    <div class="rightDiv">
+        <p><b>Name:</b> {{fullName}}</p>
+        <p><b>Mobile:</b> {{mobile}}</p>
+        <p><b>E-mail:</b> <a href="mailto:{{email}}">{{email}}</a></p>
+
+        <div class="socialLink">
+            <div class="facebookIcon icon"></div>
+            <div class="facebookInfo">
+                <a href="{{socialLinks['facebook']}}" target="_blank">
+                    {{socialLinks['facebook']}}
+                </a>
+                
+            </div>
+        </div>
+        <div class="socialLink">
+            <div class="skypeIcon icon"></div>
+            <div class="skypeInfo">
+                <a href="skype:{{socialLinks['skype']}}?adduser">
+                    {{socialLinks['skype']}}
+                </a>
+                
+            </div>
+        </div>
+        <div class="socialLink">
+            <div class="linkedinIcon icon"></div>
+            <div class="linkedinInfo">
+                <a href="{{socialLinks['linkedin']}}" target="_blank">
+                    {{socialLinks['linkedin']}}
+                </a>
+
+            </div>
+        </div> 
+    </div> 
+
+          
+</div>

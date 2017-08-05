@@ -1,0 +1,70 @@
+.personalInfo {
+    width: 450px;   
+    margin: 0 auto;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.photoDiv {
+    float: left; 
+    width: 150px;
+}
+
+.photoDiv img {
+    margin-top: 40px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.skypeInfo, .linkedinInfo, .facebookInfo {
+    vertical-align: middle;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 7px;
+    float: left;
+}
+
+.facebookIcon {
+   background-image: url('../assets/fb.png');
+   
+}
+.skypeIcon {
+   background-image: url('../assets/skype.png');
+}
+.linkedinIcon {
+   background-image: url('../assets/linkedin.png');
+}
+
+.socialLink {
+    height: 16px;
+    clear: both;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.title {
+    font-weight: bold;
+    width: 400px;
+    clear: both;
+    text-align: left; 
+}
+.facebookInfo a:after, .linkedinInfo a:after {
+    background-image: url('../assets/newTab.png');
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    content: "   "
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.rightDiv {
+    float: left;
+    width: 300px;
+}
